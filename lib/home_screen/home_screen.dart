@@ -24,9 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => NewTask(
-
-                  ),
+                  builder: (context) => NewTask(),
                 ));
           },
         ),
@@ -52,20 +50,22 @@ class _HomeScreenState extends State<HomeScreen> {
                     .map((DocumentSnapshot document) {
                       Map<String, dynamic> data =
                           document.data()! as Map<String, dynamic>;
-                    
+
                       return InkWell(
                         onLongPress: () {
-                          context.read<HomeScreenController>().deleteTask(document.id);
+                          context
+                              .read<HomeScreenController>()
+                              .deleteTask(document.id);
                         },
                         child: ListTile(
-                          title: Text(data["title"]),
-                          trailing: Checkbox(
+                          leading: Checkbox(
                             value: data["status"],
                             onChanged: (value) {
-                              context.read<HomeScreenController>().isComplete(document.id, value!, data["title"]);
+                              context.read<HomeScreenController>().isComplete(
+                                  document.id, value!, data["title"]);
                             },
                           ),
-                        
+                          title: Text(data["title"]),
                         ),
                       );
                     })
