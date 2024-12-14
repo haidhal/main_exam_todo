@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "379407539467",
+    "project_id": "fir-sample-25f6e",
+    "storage_bucket": "fir-sample-25f6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379407539467:android:3de94d395f3bc76d3b160e",
+        "android_client_info": {
+          "package_name": "com.example.main_exam_todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApLPA_R0Tpt4zNVqr5ppVWyA_u_WW2IZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379407539467:android:885242588cf5fe5b3b160e",
+        "android_client_info": {
+          "package_name": "com.example.shopping_api_bloc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApLPA_R0Tpt4zNVqr5ppVWyA_u_WW2IZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379407539467:android:38187f86d5432ed33b160e",
+        "android_client_info": {
+          "package_name": "com.luminar.firebase_sample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApLPA_R0Tpt4zNVqr5ppVWyA_u_WW2IZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
